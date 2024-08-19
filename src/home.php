@@ -11,5 +11,10 @@
         <input type="file" name="file" id="file">
         <input type="submit">
     </form>
+
+    <div id="files-container">
+
+    </div>
+    <script src="src/resources/app.js"></script>
 </body>
 </html>
