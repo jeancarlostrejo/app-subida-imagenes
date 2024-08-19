@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="src/resources/main.css">
 </head>
 <body>
     <h1>Home</h1>
@@ -12,9 +13,7 @@
         <input type="submit">
     </form>
 
-    <div id="files-container">
-
-    </div>
+    <div id="files-container"></div>
     <script src="src/resources/app.js"></script>
 </body>
 </html>
