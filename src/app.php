@@ -1,8 +1,7 @@
 <?php 
 
-if(isset($_POST["view"])) {
-    $view =  $_POST["view"];
-
+if(isset($_GET["view"])) {
+    $view =  $_GET["view"];
     require "src/". $view .  ".php";
 } else {
     require "src/home.php";

@@ -7,5 +7,9 @@
 </head>
 <body>
     <h1>Home</h1>
+    <form action="?view=upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" id="file">
+        <input type="submit">
+    </form>
 </body>
 </html>
